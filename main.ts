@@ -14,7 +14,7 @@ input.onButtonPressed(Button.A, function () {
         0,
         100
         )
-        basic.showString("PH=")
+        basic.showString("PT=")
         basic.showNumber(P1)
         basic.pause(100)
         basic.clearScreen()
@@ -29,7 +29,7 @@ input.onButtonPressed(Button.A, function () {
         0,
         100
         )
-        basic.showString("PH=")
+        basic.showString("PT=")
         basic.showNumber(P2)
         basic.pause(100)
         basic.clearScreen()
@@ -44,7 +44,7 @@ input.onButtonPressed(Button.A, function () {
         0,
         100
         )
-        basic.showString("PH=")
+        basic.showString("PT=")
         basic.showNumber(P3)
         basic.pause(100)
         basic.clearScreen()
@@ -67,15 +67,15 @@ input.onButtonPressed(Button.AB, function () {
     basic.pause(100)
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("Prom Temp Puerta")
+    basic.showString("Prom Temp P")
     Guardado_toma_temperatura_Puerta()
     basic.showNumber(Promedio_Puerta)
     basic.pause(100)
-    basic.showString("Prom Temp Ventana")
+    basic.showString("Prom Temp V")
     Guardado_toma_temperatura_ventana()
     basic.showNumber(Promedio_Ventana)
     basic.pause(100)
-    basic.showString("Prom Temp Habitación")
+    basic.showString("Prom Temp H")
     Guardado_toma_temperatura_habitación()
     basic.showNumber(Promedio_Habitación)
     basic.pause(100)
